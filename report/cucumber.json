@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7130505379,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Multiple login feature test",
+        "description": "",
+        "id": "multiple-login-feature;multiple-login-feature-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 217764797,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4285388464,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the signin page",
+            "match": {
+              "location": "MultipleLogInSteps.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1924794796,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"kashem1956@gmail.com\" and \"\u003cpassword\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kashem1956@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "\u003cpassword",
+                  "offset": 40
+                }
+              ],
+              "location": "MultipleLogInSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@many"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4631175250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Multiple login feature test",
+        "description": "",
+        "id": "multiple-login-feature;multiple-login-feature-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 173518432,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3469589728,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is in the signin page",
+            "match": {
+              "location": "MultipleLogInSteps.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1479796718,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"nafasatzayan@gmail.com\" and \"\u003cpassword\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nafasatzayan@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "\u003cpassword",
+                  "offset": 42
+                }
+              ],
+              "location": "MultipleLogInSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@many"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple login feature",
+    "description": "",
+    "id": "multiple-login-feature",
+    "keyword": "Feature",
+    "uri": "MultipleLogIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@many"
+      }
+    ]
+  }
+]
